@@ -1,0 +1,92 @@
+@import "./theme/colors.scss";
+
+@font-face {
+  font-family: "Segoe-UI-Regular";
+  src: url(./theme/typography/fonts/segoeui.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Segoe-UI-Bold";
+  src: url(./theme/typography/fonts/segoeuib.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Segoe-UI-Light";
+  src: url(./theme/typography/fonts/segoeuil.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Segoe-UI-SemiLight";
+  src: url(./theme/typography/fonts/segoeuisl.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Segoe-UI-SemiBold";
+  src: url(./theme/typography/fonts/seguisb.ttf) format("truetype");
+}
+
+.heading-large {
+  font-family: Segoe-UI-Regular;
+  font-size: 68px;
+  color: $neutralPrimary;
+}
+
+.heading {
+  font-family: Segoe-UI-Regular;
+  font-size: 42px;
+  color: $neutralPrimary;
+}
+
+.title {
+  font-family: Segoe-UI-Regular;
+  font-size: 32px;
+  color: $neutralPrimary;
+  // opacity: 200 !important;
+}
+.title-semibold {
+  font-family: Segoe-UI-SemiBold;
+  font-size: 32px;
+}
+
+.subtitle {
+  font-family: Segoe-UI-Regular;
+  font-size: 28px;
+}
+.subtitle-semibold {
+  font-family: Segoe-UI-SemiBold;
+  font-size: 28px;
+}
+
+.label {
+  font-family: Segoe-UI-Light;
+  font-size: 24px;
+}
+
+.content {
+  font-family: Segoe-UI-Light;
+  font-size: 20px;
+}
+
+.content-regular {
+  font-family: Segoe-UI-Regular;
+  font-size: 20px;
+}
+
+.body {
+  background-color: $white !important;
+  margin: 0px !important;
+}
+
+.ml5 {
+  margin-left: 5px;
+}
+
+.ml10 {
+  margin-left: 10px;
+}
+.mr5 {
+  margin-right: 5px;
+}
+.mr10 {
+  margin-right: 10px;
+}
+
+.ml20 {
+  margin-left: 20px;
+}
