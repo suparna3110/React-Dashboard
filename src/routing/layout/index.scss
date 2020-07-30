@@ -1,0 +1,60 @@
+@import "../../theme/colors.scss";
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.layout-header {
+    // min-height: 100vh;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+  max-height: 50px;
+  min-height: 50px;
+  //   width: 500px;
+  background-color: rgba(22, 221, 32, 0.561);
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0;
+  left:0;
+  align-items: center;
+  //   justify-content: space-evenly;
+}
+
+.nav {
+  position: fixed;
+  left: 0;
+  top: 50px;
+  background-color: rgba(11, 6, 43, 0.397);
+  // padding-top: 50px;
+}
+
+.fp-text {
+  margin-left: 40px;
+  align-self: center;
+  flex: 0.95;
+}
+
+.user-container {
+  flex: 0.05;
+  display: flex;
+  flex-direction: row;
+}
+.action-button-header {
+  align-self: center;
+}
+
+.sidebar-content-layout {
+  // position: fixed;
+}
+.content {
+  height: 100vw;
+  width: 100%;
+  top: 50px;
+  left: 208px;
+  padding-top: 30px;
+  padding-left: 30px;
+  position: fixed;
+}
